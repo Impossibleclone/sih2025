@@ -8,6 +8,8 @@
     "shell:default",
     "log:default",
     "dialog:default",
-    "fs:default"
+    "fs:default",
+    "core:path:default",
+    "core:app:default"
   ]
 }
