@@ -1,11 +1,9 @@
 {
-    "$schema": "../node_modules/@tauri-apps/cli/schema.json",
+    "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
     "productName": "Wipedevs",
     "version": "0.1.0",
     "identifier": "com.tauri.dev",
     "build": {
-        "beforeBuildCommand": "",
-        "beforeDevCommand": "",
         "frontendDist": "../src"
     },
     "app": {
@@ -20,7 +18,8 @@
         ],
         "security": {
             "csp": null
-        }
+        },
+        "withGlobalTauri": true
     },
     "bundle": {
         "active": true,
